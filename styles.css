@@ -1,0 +1,175 @@
+body {
+    background-image: url(./images/BG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    align-items: center;    
+    padding: 5px;
+    height: 70px;
+    margin-top: -7px;
+}
+
+.head2 {
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 5px;
+    height: 45px;
+    margin-top: 5px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.splash {
+    background-image: url("./images/guns.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    padding: 1em;
+}
+
+.inputright {
+    background-color: rgb(90, 89, 86);
+    color: white;
+    border-radius: 12%;
+    border-width: 0px;
+    width: 150px;
+    height: 30px;
+    font-size: 80%;
+    margin: 15px;
+    float: right;
+}
+
+/* h1 {
+    text-shadow: 0.1px 3px grey;
+} */
+
+.bg-text {
+    background-color: rgb(24, 20, 20);
+    color: white;
+    padding: 10x;
+    margin: 0.5%;
+    border-radius: 3%;
+    text-align: center;
+    
+}
+
+.biggertext {
+    font-size: 50px;
+}
+
+.btn {
+    background-color: rgb(90, 89, 86);
+    border-radius: 15%;
+    border-width: 0px;
+    width: 90px;
+    height: 30px;
+    font-size: 80%;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.smallbtn {
+    background-color: rgb(90, 89, 86);
+    border-radius: 15%;
+    border-width: 0px;
+    width: 30px;
+    height: 30px;
+    font-size: 80%;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.splash {
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    padding: 1em
+}
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: flex;
+}
+.grid{
+    display: table-row;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    padding: 1em
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+  .column {
+    background-color: #eee;
+    padding: 10px;
+  }
+img{
+    width: 100%;
+}
+    .gallery img:last-child {
+    grid-column: 3;   
+}
+
+.card {
+    border: 2px solid rgb(138, 138, 138);
+    border-radius:5px;
+    background-color: rgb(90, 90, 90);
+    color: #fff;
+
+}
+
+.card h2 {
+    background-color: orange;
+    margin: 0;
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+a:visited {
+    color: white;
+}
+
+a:link {
+    color: white;
+}
