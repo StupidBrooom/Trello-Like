@@ -198,6 +198,10 @@ img{
 
 }
 
+.card:hover {
+    background-color: rgb(238, 238, 238) ;
+}
+
 .card h2 {
     background-color: orange;
     margin: 0;
@@ -258,7 +262,7 @@ a:link {
 
 .option:hover {
     box-sizing: border-box;
-    background-color: grey;
+    background-color: rgb(90, 89, 86);
     border: 1px solid black;
 }
 
